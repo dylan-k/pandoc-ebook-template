@@ -7,6 +7,9 @@ TOC = --toc --toc-depth=2
 COVER_IMAGE = images/cover.jpg
 LATEX_CLASS = report
 
+KINDLEGEN := kindlegen
+KINDLEGEN_OPTS :=
+
 all: book
 
 book: epub mobi html pdf markdown

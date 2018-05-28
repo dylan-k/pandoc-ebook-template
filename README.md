@@ -20,7 +20,12 @@ Installing and running
 3. From the top of the project, type ``make book`` or, ``make``.
    This generates three versions of the sample book in a ``build/`` directory.
    
-4. If you don't want to make everything, you can also do ``make pdf`` or ``make html`` or ``make epub``
+4. If you don't want to make everything, you can also do: 
+
+  - ``make pdf``
+  - ``make html``
+  - ``make epub``
+  - ``make markdown`` 
 
 
 Replacing the sample material

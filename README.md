@@ -14,6 +14,7 @@ Installing and running
   - [make](http://www.gnu.org/software/make/) 
   - [pandoc](http://johnmacfarlane.net/pandoc)
   - [latex](http://www.latex-project.org/) 
+  - [kindlegen](https://wiki.mobileread.com/wiki/KindleGen)
 
 2. Clone this repo with **git**.
 

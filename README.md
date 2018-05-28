@@ -14,7 +14,7 @@ Installing and running
   - [make](http://www.gnu.org/software/make/) 
   - [pandoc](http://johnmacfarlane.net/pandoc)
   - [latex](http://www.latex-project.org/) 
-  - [kindlegen](https://wiki.mobileread.com/wiki/KindleGen)
+  - [kindlegen](https://wiki.mobileread.com/wiki/KindleGen#Available_Platforms)
 
 2. Clone this repo with **git**.
 
@@ -27,6 +27,7 @@ Installing and running
   - ``make html``
   - ``make epub``
   - ``make markdown`` 
+  - ``make mobi``
 
 
 Replacing the sample material
@@ -63,7 +64,7 @@ Makefile
 
 - (Optional) Change ``LATEX_CLASS``. The default of ``report`` handles 
   multi-chapter books pretty well, and uses the same template for even and odd
-  page numbers. However, you are free to substitute in any other LaTeX document
+  page numbers. You are free to substitute in any other LaTeX document
   class. For example, ``book`` provides a left-side/right-side template that is
   suitable for print, and ``article`` is good for shorter manuscripts (short
   stories, technical briefs).
@@ -76,5 +77,5 @@ Replace the contents of this file with the real manuscript title and author name
 metadata.xml
 ------------
 
-Replace with your actual copyright statement, language, and any other Dublin
-Core metadata you wish to provide.
+Replace with your actual copyright statement, language, and any other [Dublin
+Core metadata](https://en.wikipedia.org/wiki/Dublin_Core#Dublin_Core_Metadata_Element_Set) you wish to provide.

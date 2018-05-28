@@ -1,8 +1,8 @@
 BUILD = build
-BOOKNAME = my-book
+BOOKNAME = talking-too-much
 TITLE = title.txt
 METADATA = metadata.xml
-CHAPTERS = ch01.md ch02.md
+CHAPTERS = 01-airport-motel.txt hats.txt penn-station.txt small-talk.txt welcome-convention-center.txt conversation-jubilee-cafe.txt monster-costume.txt presentaion-notes.txt writing-lines-chalkboard.txt
 TOC = --toc --toc-depth=2
 COVER_IMAGE = images/cover.jpg
 LATEX_CLASS = report
